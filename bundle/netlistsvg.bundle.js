@@ -1568,7 +1568,7 @@ const exampleAnalogjson={
             "A": [12]
           },
           "attributes": {
-            "name":"DGND"
+            "name":"GND"
           }
         }
       }
