@@ -1451,7 +1451,8 @@ module.exports = {
     digitalSkin: digital,
     analogSkin: analog,
     exampleDigital: exampleDigitalJson,
-    exampleAnalog: exampleAnalogJson
+    exampleAnalog: exampleAnalogJson,
+    json5: json5
 };
 
 }).call(this)}).call(this,require("buffer").Buffer)
@@ -7186,7 +7187,7 @@ module.exports={
         "$data": {
             "type": "string",
             "anyOf": [
-                { "format": "relative-json-pointer" }, 
+                { "format": "relative-json-pointer" },
                 { "format": "json-pointer" }
             ]
         }
