@@ -1576,7 +1576,7 @@ const exampleAnalogjson={
   }
 };
 const exampleDigitalJson = json5.parse(exampleDigital);
-const exampleAnalogJson = json5.parse(exampleAnalog);
+const exampleAnalogJson = json5.parse(exampleAnalogjson);
 
 function render(skinData, netlistData, cb) {
     var valid = ajv.validate(json5.parse(schema), netlistData);
@@ -1591,7 +1591,7 @@ module.exports = {
     digitalSkin: digital,
     analogSkin: analog,
     exampleDigital: exampleDigitalJson,
-    exampleAnalog: exampleAnalogjson,
+    exampleAnalog: exampleAnalogJson,
     json5: json5
 };
 
